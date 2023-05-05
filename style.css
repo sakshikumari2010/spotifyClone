@@ -1,0 +1,133 @@
+body{
+    background-color: #5254D8;
+    font-family: 'Mukta', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Faustina', serif;
+}
+
+.logo{
+    height: 69px;
+    width: 65px;
+    
+    
+}
+
+nav ul li{
+    padding: 0 11px ;
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    color: white;
+    background-color: black;
+}
+.brand{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container{
+    min-height: 63vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    background-image: url('bg23.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.icons{
+    margin: 12px 0;
+
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width : 70vw;
+    text-align: center;
+    cursor: pointer;
+
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    width: 95%;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    align-items: center;
+    border-radius: 34px;
+
+    /* justify-content:center; */
+}
+.time{
+    /* margin: 0 80px; */
+    padding-left: 70px;
+    /* padding-left: 75px;
+    margin-right: 51px;
+    margin-left: 106px; */
+
+}
+.time i{
+    cursor: pointer;
+    /* margin: 0 23px; */
+    /* padding-left: 70px; */
+}
+.songItemContainer{
+    margin-top: 24px;
+}
+
+.songItem img{
+
+  width: 80px;
+  margin: 0 23px;  
+  /* height: auto; */
+  border-radius: 15px;
+}
+.songInfo{
+    position: absolute;
+    left: 22vh;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+}
+
+/* .songlistplay{
+    justify-content: end;
+} */
+
+/* .loveu{
+    justify-content:center;
+    padding-left: 40px;
+    padding-right: 60px;
+} */
